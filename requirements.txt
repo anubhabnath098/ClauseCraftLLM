@@ -1,4 +1,29 @@
+# FastAPI & Server
 fastapi
 uvicorn[standard]
+
+# PDF processing
 pypdf
+pdfminer.six
+
+# HTTP requests
 requests
+
+# Data processing
+numpy
+regex
+pickle-mixin
+
+# Embedding & similarity search
+faiss-cpu
+sentence-transformers
+
+# AWS SDK
+boto3
+
+# Utilities
+pydantic
+uuid
+tempfile
+os
+json

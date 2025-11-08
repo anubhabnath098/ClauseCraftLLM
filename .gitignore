@@ -1,0 +1,54 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# --- Virtual Environment ---
+venv/
+env/
+ENV/
+.venv/
+*.venv/
+
+# --- OS-specific junk ---
+.DS_Store
+Thumbs.db
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+
+# --- Environment Variables ---
+.env
+
+# --- Logs and temporary files ---
+*.log
+*.tmp
+*.temp
+*.swp
+
+# --- FAISS Index and Pickle metadata ---
+clauses.index
+clauses_meta.pkl
+
+# --- Node-related (in case of frontend integration) ---
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Caches ---
+__pycache__/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+.ipynb_checkpoints/
